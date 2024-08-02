@@ -1,0 +1,15 @@
+my_dict = {'Anton': 1991, 'Denis': 1992, 'Artem': 1991, 'Lena': 1993}
+print(my_dict)
+print(my_dict.get('Anton'))
+print(my_dict.get('Dima'))
+my_dict.update({'Anna': 1995, 'Fedor': 1993})
+print(my_dict)
+a = my_dict.pop('Lena')
+print(a)
+print(my_dict)
+my_set = {1, 2, 3, 3, 4, 5, 4, 3, 5, 'string', 4.54}
+print(my_set)
+my_set.add(7)
+my_set.add(10)
+print(my_set.remove(2))
+print(my_set)
